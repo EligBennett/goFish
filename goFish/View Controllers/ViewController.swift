@@ -9,11 +9,11 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    
+    let card = Card()
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    
 
 
 }
