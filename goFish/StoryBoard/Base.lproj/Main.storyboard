@@ -77,6 +77,34 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deepblue-ocean-iphone-wallpaper-1" translatesAutoresizingMaskIntoConstraints="NO" id="jqL-me-pzk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="geG-aa-viB">
+                                <rect key="frame" x="183" y="483" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="p9D-e9-71Q">
+                                <rect key="frame" x="143" y="483" width="61" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oXg-5d-zWU">
+                                <rect key="frame" x="103" y="483" width="66" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7vn-lk-ghd">
+                                <rect key="frame" x="58" y="483" width="68" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EAY-EZ-57u">
+                                <rect key="frame" x="20" y="483" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c3r-k7-IY8">
+                                <rect key="frame" x="275" y="483" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ks-Pk-RpM">
                                 <rect key="frame" x="0.0" y="0.0" width="30" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -86,14 +114,27 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="cQr-Cc-XVT"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yyn-kc-LLJ">
+                                <rect key="frame" x="229" y="483" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="vE5-5Z-PfM"/>
                     </view>
+                    <connections>
+                        <outlet property="uiImage" destination="EAY-EZ-57u" id="asc-UP-2bN"/>
+                        <outlet property="uiImage2" destination="7vn-lk-ghd" id="bWq-Jp-qxt"/>
+                        <outlet property="uiImage3" destination="oXg-5d-zWU" id="ZHy-uD-UVE"/>
+                        <outlet property="uiImage4" destination="p9D-e9-71Q" id="brv-Is-emL"/>
+                        <outlet property="uiImage5" destination="geG-aa-viB" id="ZOV-Ae-3NG"/>
+                        <outlet property="uiImage6" destination="yyn-kc-LLJ" id="7K8-2E-BYZ"/>
+                        <outlet property="uiImage7" destination="c3r-k7-IY8" id="qps-19-SRa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ggr-S4-jtf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1364" y="744"/>
+            <point key="canvasLocation" x="1364" y="743.47826086956525"/>
         </scene>
         <!--PlayerV Scomputer-->
         <scene sceneID="onM-t5-Y9n">
@@ -103,6 +144,38 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="deepblue-ocean-iphone-wallpaper-1" translatesAutoresizingMaskIntoConstraints="NO" id="SOp-sy-zSk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Mz-ZK-o89">
+                                <rect key="frame" x="30" y="507" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRB-zd-tna">
+                                <rect key="frame" x="65" y="507" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="efq-W3-DPo">
+                                <rect key="frame" x="243" y="507" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aBd-71-wqT">
+                                <rect key="frame" x="207" y="507" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j1K-R3-YQj">
+                                <rect key="frame" x="172" y="507" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hac-N8-bI3">
+                                <rect key="frame" x="136" y="507" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xt7-RH-BPv">
+                                <rect key="frame" x="101" y="507" width="63" height="98"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0u2-Ky-4HR">
                                 <rect key="frame" x="0.0" y="0.0" width="30" height="38"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -116,16 +189,26 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="hzj-9o-O6k"/>
                     </view>
+                    <connections>
+                        <outlet property="uIImage" destination="2Mz-ZK-o89" id="2Le-r8-gIE"/>
+                        <outlet property="uIImage2" destination="lRB-zd-tna" id="bLS-xB-IuI"/>
+                        <outlet property="uIImage3" destination="Xt7-RH-BPv" id="agV-Ly-wfU"/>
+                        <outlet property="uIImage4" destination="hac-N8-bI3" id="YNR-AJ-awh"/>
+                        <outlet property="uIImage5" destination="j1K-R3-YQj" id="Oyd-B3-yV4"/>
+                        <outlet property="uIImage6" destination="aBd-71-wqT" id="ZPm-p7-RAq"/>
+                        <outlet property="uIImage7" destination="efq-W3-DPo" id="Ej7-DH-42d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EhX-lg-l6N" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1310" y="-233"/>
+            <point key="canvasLocation" x="1309.5999999999999" y="-233.43328335832086"/>
         </scene>
     </scenes>
     <resources>
         <image name="0689196801211_p0_v3_s550x406" width="296" height="406"/>
+        <image name="deepblue-ocean-iphone-wallpaper-1" width="736" height="1308"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="cQr-Cc-XVT"/>
+        <segue reference="73o-LQ-aKS"/>
     </inferredMetricsTieBreakers>
 </document>

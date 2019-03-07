@@ -29,16 +29,13 @@ class Card {
         image = uiImage
     }
 
-    func setCard(number: Int, PTsuit: Suit) //PTsuit = Parameter Two Suit
+    func setCard(number: Int, PTsuit: Suit,crdImage: UIImage) //PTsuit = Parameter Two Suit
     {
-        
+        image = crdImage
         num = number        // not much need for this func
         suit = PTsuit       //init is doing this up there^
     }
-    
-    func setImage(crdImage: UIImage) {
-        image = crdImage
-    }
+
 
     func getCard()
     {
